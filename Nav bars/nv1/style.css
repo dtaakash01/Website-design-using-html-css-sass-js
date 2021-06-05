@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+}
+
+li, a , button {
+    font-family: Montserrat , sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: inherit;
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+
+}
+
+.logo {
+    width: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.nav-links a{
+    transition:all 0.3s ease;
+}
+
+.nav-links li a:hover{
+    color: blue;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+.toggle-button{
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+   display: none;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+@media (max-width: 400px){
+    .toggle-button 
+    {display: flex;}
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact {
+        display: none;
+    }
+}
+
+
