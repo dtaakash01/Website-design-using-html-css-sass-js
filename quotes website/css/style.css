@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: url('../images/green-tea-6078275_1920.jpg');
+    height: 100vh;
+}
+
+
+/* Navbar */
+
+nav {
+    height: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#navbar .logo a {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar a:hover, #navbar .container .logo:hover {
+   
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.container ul li{
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+/* mid container */
+
+.mid-container {
+    text-align: center;
+    display: flex;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px;
+    align-content: center;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    align-content: center;
+}
+
+
+
+.box {
+    background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg') no-repeat center/cover;
+    width: 90px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
