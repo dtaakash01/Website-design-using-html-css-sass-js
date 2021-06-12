@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Moneypal University | 100% placements</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Educational Hub</h1>
+            <p>Making university is easy as it requires just fake placements data <br>and some idiotic teacher from big univesity</p>
+            <a class="hero-btn" href="about.html">CLick here to know more</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h2>Courses we offer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </section>
+
+
+
+
+
+
+
+    <!-- Java Script code -->
+
+    <script>
+        var navLinks = document.getElementById('navLinks')
+
+        function showMenu () {
+            navLinks.style.right= "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
