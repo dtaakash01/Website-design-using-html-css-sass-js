@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .header {
@@ -21,6 +22,7 @@ nav {
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 nav img {
@@ -156,4 +158,38 @@ nav .fas {
     font-weight: 300;
     padding: 10px;
     line-height: 1.2;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.course-col {
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.course-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px auto;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0 rgba(4,9,30,0.2);
+}
+
+
+@media(max-width:700px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
 }
