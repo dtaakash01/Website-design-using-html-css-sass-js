@@ -324,3 +324,77 @@ nav .fas {
     font-size: medium;
     font-weight: 300;
 }
+
+.testimonial-col i {
+    color: #f44336
+}
+
+/* SECTION:CONTACT US */
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/images/banner.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 700px) {
+    .cta h1 {
+        font-size: 24px;
+    }
+}
+
+.footer {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fab {
+    margin: 0px 13px;
+    cursor: pointer;
+    padding: 18px 0;
+
+
+}
+
+.icons .fa-instagram {
+    color:  #e95950;
+}
+
+.icons .fa-facebook {
+    color: #4267B2;
+}
+.icons .fa-twitter {
+color: #00acee;
+}
+
+.icons .fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-heart {
+    color: #f44336;
+}
+
+.footer p {
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
